@@ -1,20 +1,16 @@
 ### Regression Modelling (1st Trial)
-This exercise trial attempts to predict public housing prices using regression model based on historical data.   
+* This exercise trial attempts to predict public housing prices using regression model based on historical data.   
+
+### Purpose
+* To practice applying data science libraries and making use of suitable models to predict housing prices results.  
+* To present insightful information that enable buyers, policy makers and investors towards making informed decisions.
+
 
 ### Data Science
 <details> 
   <summary>Libraries</summary>  
 Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 </details>
-
-### Purpose
-<details> 
-  <summary>Statements</summary>
-  
-* To practice applying data science libraries and making use of suitable models to predict housing prices results.  
-* To present insightful information that enable buyers, policy makers and investors towards making informed decisions.
-</details>
-
 
 ### Dataset
 <details> 
