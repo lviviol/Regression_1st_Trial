@@ -46,7 +46,10 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
   2. This means the model accurate predicts prices only 13.2% of the time.  This is somewhat and undesirable result.
   3. Negative correlation shows the model is performing worse than a simple mean predictions.  This is undesirable.
 
-<a href="https://lviviol.github.io/Regression_Modelling_Trial/Regression1stTrial.html" target="_blank">Regression Modelling Chart (Click to View Interactive Chart)</a>
+<a href="https://lviviol.github.io/Regression_Modelling_Trial/Regression1stTrial.html" target="_blank">Regression Modelling Chart (Click this link to View Interactive Chart)</a>
+
+<img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/RandomForestRegression_Trial1.png?raw=true" width="800">
+
 
 ### Observations A
 1. Random Forest Regression was selected due to it's ability to handle outliers and robust in reducing risk of overfitting.
