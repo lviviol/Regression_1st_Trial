@@ -1,13 +1,13 @@
-# Regression Modelling (1st Trial)
+### Regression Modelling (1st Trial)
 This exercise trial attempts to predict public housing prices using regression model based on historical data.   
 
-# Data Science
+### Data Science
 <details> 
   <summary>Libraries</summary>  
 Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 </details>
 
-# Purpose
+### Purpose
 <details> 
   <summary>Statements</summary>
   
@@ -16,7 +16,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 </details>
 
 
-# Dataset
+### Dataset
 <details> 
   <summary>Variables & Source</summary>  
   
@@ -24,7 +24,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 * Data sources is Singapore's Open Data Portal
 </details>
 
-# Scope
+### Scope
 <details> 
   <summary>Period & Predictions</summary>  
   
@@ -33,7 +33,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 * Selected Variables: We begin this data modelling exercise with 1 variable, prices.
 </details>
 
-# Methodology & Implementation
+### Methodology & Implementation
 <details> 
   <summary>Experimental</summary>  
   
@@ -44,7 +44,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 * The model predicts housing prices
 </details>
 
-# Results & Visualization
+### Results & Visualization
 <details> 
   <summary>Key Findings</summary>  
   
@@ -53,7 +53,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
   3. Negative correlation shows the model is performing worse than a simple mean prediction.
 </details>
  
-# Future Improvements
+### Future Improvements
 <details> 
   <summary>Ideas & Plan</summary>  
 
@@ -63,7 +63,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 </details>
 
 
-# Appendix
+### Appendix
 <details> 
   <summary>Disclaimer</summary>
 This project is currently in early stage of development and analysis.  The predictions and insights generated are preliminary and should not be used for financial, investment and policy decisions.  Contributions and feedback are welcome as this analysis evolves. 
@@ -85,7 +85,7 @@ This project is currently in early stage of development and analysis.  The predi
   1. Open data portal, https://data.gov.sg
 </details>
 
-# Charts
+### Charts
 [View Interactive Chart](https://lviviol.github.io/Regression_1st_Trial/Regression1stTrial.html) 	
 
 
