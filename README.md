@@ -61,7 +61,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 ### Observations C
 1. To deepen our understanding of the dataset, BoxPlot was deployed and our assumption about extensive outliers in the dataset was valid.
 2. We suspect higher freqency of transactions and wider distribution of outlier from 2022 onwards may have affected the effectiveness of the Random Forest Model.
-3. However, we also observed that the mean value of the Predicted Prices is somewhat close to the median value of the BoxPlot.
+3. However, we also observed that mean value of the Predicted Prices is somewhat close to Actual Median Prices by the BoxPlot.
 <img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/BoxPlot.png?raw=true" width="800">
 
  
