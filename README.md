@@ -46,6 +46,8 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
   2. This means the model accurate predicts prices only 13.2% of the time.
   3. Negative correlation shows the model is performing worse than a simple mean predictions
 
+<a href="https://lviviol.github.io/Regression_Modelling_Trial/Regression1stTrial.html" target="_blank">Regression Modelling Chart (Click to View Interactive Chart)</a>
+
 <img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/LinePlot.png?raw=true" width="800">
 <img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/BoxPlot.png?raw=true" width="800">
  
@@ -81,8 +83,7 @@ This project is currently in early stage of development and analysis.  The predi
   1. Open data portal, https://data.gov.sg
 </details>
 
-### Charts
-[View Interactive Chart](https://lviviol.github.io/Regression_1st_Trial/Regression1stTrial.html) 	
+
 
 
 
