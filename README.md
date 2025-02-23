@@ -46,6 +46,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
   2. This means the model accurate predicts prices only 13.2% of the time.
   3. Negative correlation shows the model is performing worse than a simple mean predictions
 
+<img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/LinePlot.png?raw=true" width="800">
 ![alt text](https://github.com/lviviol/Regression_Modelling_Trial/blob/main/LinePlot.png?raw=true)
  
 ### Future Improvements
