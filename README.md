@@ -52,7 +52,7 @@ This project is currently in early stage of development and analysis.  The predi
   1. Open data portal, https://data.gov.sg
 
 # Details
-
+[View Interactive Chart](https://lviviol.github.io/Regression_1st_Trial/Regression1stTrial.html) 	
 
 
 
