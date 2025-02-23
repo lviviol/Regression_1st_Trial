@@ -46,20 +46,24 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
   2. This means the model accurate predicts prices only 13.2% of the time.  This is somewhat and undesirable result.
   3. Negative correlation shows the model is performing worse than a simple mean predictions.  This is undesirable.
 
-### Observations
-1. Random Forest Regression was selected due to it's ability to handle outliers and robust in reducing risk of overfitting.
-2. However,this case of lower OOB and poor R-Square suggest there are other factors to consider, especially when housing prices can be influenced by various factors.
-3. We attempted to vary the n_estimators from default 100 up to 5000, but the result remains stable, suggesting the n_estimators is appropriate/sufficient for the averaging effects in this dataset.
-4. We attempted to vary the ratio between train data & test data by increasing the test data to 6 months and 12 months.  It is observed that OOB becomes worse as the train data decreases and test data increases, which is within expectations due to dynamic housing transactions prices in the later range of the time series.  (This dynamism can be seen with the higher density of the green chart after 2022, which also coincides with post pandemic opening up of the nation where this dataset belongs to.)
-5. We went back to basics and investigate into the aggregate data using a line plot and observed that the Max Price values are beyond general concensus of housing prices range.
-6. To deepen our understanding of the dataset, BoxPlot was deployed and our assumption about extensive outliers in the dataset was valid.
-7. We suspect higher freqency of transactions and wider distribution of outlier from 2022 onwards may have affected the effectiveness of the Random Forest Model.
-8. However, we also observed that the mean value of the Predicted Prices is somewhat close to the median value of the BoxPlot.
-
 <a href="https://lviviol.github.io/Regression_Modelling_Trial/Regression1stTrial.html" target="_blank">Regression Modelling Chart (Click to View Interactive Chart)</a>
 
+### Observations A
+1. Random Forest Regression was selected due to it's ability to handle outliers and robust in reducing risk of overfitting.
+2. However, this case of lower OOB and poor R-Square suggest there are other factors to consider, especially when housing prices can be influenced by various factors.
+3. We attempted to vary the n_estimators from default 100 up to 5000, but the result remains stable, suggesting the n_estimators is appropriate/sufficient for the averaging effects in this dataset.
+4. We attempted to vary the ratio between train data & test data by increasing the test data to 6 months and 12 months.  It is observed that OOB becomes worse as the train data decreases and test data increases, which is within expectations due to dynamic housing transactions prices in the later range of the time series.  (This dynamism can be seen with the higher density of the green chart after 2022, which also coincides with post pandemic opening up of the nation where this dataset belongs to.)
+
+### Observations B
+1. We went back to basics and investigate into the aggregate data using a line plot and observed that the Max Price values are beyond general concensus of typical housing prices range.
 <img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/LinePlot.png?raw=true" width="800">
+
+### Observations C
+1. To deepen our understanding of the dataset, BoxPlot was deployed and our assumption about extensive outliers in the dataset was valid.
+2. We suspect higher freqency of transactions and wider distribution of outlier from 2022 onwards may have affected the effectiveness of the Random Forest Model.
+3. However, we also observed that the mean value of the Predicted Prices is somewhat close to the median value of the BoxPlot.
 <img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/BoxPlot.png?raw=true" width="800">
+
  
 ### Future Improvements
 <details> 
