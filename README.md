@@ -43,7 +43,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 ### Results & Visualization
   
   1. OOB = 13.2% & R-Square = -0.026
-  2. This means the model accurately predicts prices only 13.2% of the time.  This is somewhat and undesirable result.
+  2. This means the model accurately predicts prices only 13.2% of the time.  This is somewhat an undesirable result.
   3. Negative correlation shows the model is performing worse than a simple mean predictions.  This is undesirable.
 
 <a href="https://lviviol.github.io/Regression_Modelling_Trial/Regression1stTrial.html" target="_blank">Regression Modelling Chart (Click this link to View Interactive Chart)</a>
