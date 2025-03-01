@@ -36,7 +36,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 * We examine all data, including outliers.
 * We check and exclude missing data to minimize bias in the analysis
 * Data is split into training (2017-01 - 2024-10) and testing (2024-11 - 2025-02), i.e. using quarterly data to test the model.
-* Random Forest Regression is selected since housing price is a time series data.
+* Random Forest Regression Model is selected since housing price is a time series data.
 * The model predicts housing prices.
 </details>
 
@@ -72,7 +72,8 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 1. Investigating into correlation between Model Predicted vs Mean & Median historical prices shows R-Square>90%.
 2. Predicted prices are also closely following historical Mean prices.
 3. Above 2 points suggest this Random Forest Regression analysis is somewhat behaving properly since the model takes average of predictions as output in it's calculation.
-4. However, forward Predicted Prices, i.e. 2025-03 onwards, repeats the pattern of 2024, which is not as expected.
+4. However, forward Predicted Prices, i.e. 2025-03 onwards, repeats the pattern of 2024, which is not as expected.  We expect a flat or rising trend and plan to investigate further.
+5. Special Observation: Spike in transactions and rising prices after 2021, signifying investor confidence, is highly likely due to the country's robust management, coherent actions and open response to the pandemic.  Higher disposable income of local residents due to limited spending during pandemic period could be another source of drivers for high demand.  Catalyst effect of low interest rates should not be under estimated too. 
 <a href="https://lviviol.github.io/Regression_Modelling_Trial/CorrelationCheck.html" target="_blank">  
 Regression Modelling Chart (Click this link to View Interactive Chart)</a>
 <img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/CorrelationCheck.png?raw=true" width="800">
