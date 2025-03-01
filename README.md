@@ -69,11 +69,12 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 
 
 ### Observations D - Correlation Check
-1. Investing into correlation between Model Predicted vs Mean & Median actual prices shows R-Square>90%.
-2. Predicted prices are also closely following Mean Prices.
-3. Above 2 points suggest this Random Forest Regression analysis exercise is somewhat behaving properly since Random Forest Regression takes average of predictions as output in it's calculation.
-4. However, forward Predicted Prices, i.e. 2025-03 onwards, repeats the pattern of 2024
-<a href="https://lviviol.github.io/Regression_Modelling_Trial/CorrelationCheck.html" target="_blank">Regression Modelling Chart (Click this link to View Interactive Chart)</a>
+1. Investigating into correlation between Model Predicted vs Mean & Median historical prices shows R-Square>90%.
+2. Predicted prices are also closely following historical Mean prices.
+3. Above 2 points suggest this Random Forest Regression analysis is somewhat behaving properly since the model takes average of predictions as output in it's calculation.
+4. However, forward Predicted Prices, i.e. 2025-03 onwards, repeats the pattern of 2024, which is not as expected.
+<a href="https://lviviol.github.io/Regression_Modelling_Trial/CorrelationCheck.html" target="_blank">  
+Regression Modelling Chart (Click this link to View Interactive Chart)</a>
 <img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/CorrelationCheck.png?raw=true" width="800">
 
  
@@ -81,7 +82,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 <details> 
   <summary>Ideas & Plan</summary>  
 
-* We plan to check correlation between Boxplot Actual Median Price & Predicted Price.  Our Hypothesis is, if the correlation is positive, perhaps one idea is to select a regression model that models median instead of mean.
+* We plan to check correlation between Boxplot Actual Median Price & Predicted Price.  Our Hypothesis is, if the correlation is positive, perhaps one idea is to select a regression model that models median instead of mean. (Done)
 * We plan to compare model output with full dataset and dataset without outliers.  Purpose is to investigate outlier effect on OOB and R Square.  We also note that the disadvantage of removing outlier is it's impact on summary and distribution of the aggregate data, resulting in a biased output.
 * We plan to research on other regression models that are more robust at modelling dataset with higher outliers
 * We plan to include more variables into the modelling.
