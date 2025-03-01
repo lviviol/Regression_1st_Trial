@@ -76,7 +76,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 5. Special Observation: Spike in transactions and rising prices after 2021, signifying investor confidence, is highly likely due to the country's robust management, coherent actions and open response to the pandemic.  Higher disposable income of local residents due to limited spending during pandemic period could be another source of drivers for high demand.  Catalyst effect of low interest rates should not be under estimated too. 
 <a href="https://lviviol.github.io/Regression_Modelling_Trial/CorrelationCheck.html" target="_blank">  
 Regression Modelling Chart (Click this link to View Interactive Chart)</a>
-<img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/CorrelationCheck.png?raw=true" width="800">
+<img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/CorrelationCheck.png?raw=true" width="1200">
 
  
 ### Future Improvements
