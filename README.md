@@ -69,8 +69,11 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 
 
 ### Observations D - Correlation Check
-1. Correlation between Model Predicted vs Mean & Median prices shows R-Square>90%.
-2. Predicted prices closely follows Mean Prices is within expection since Random Forest Regression takes average of predictions as output.
+1. Investing into correlation between Model Predicted vs Mean & Median actual prices shows R-Square>90%.
+2. Predicted prices are also closely following Mean Prices.
+3. Above 2 points suggest this Random Forest Regression analysis exercise is somewhat behaving properly since Random Forest Regression takes average of predictions as output in it's calculation.
+4. However, forward Predicted Prices, i.e. 2025-03 onwards, repeats the pattern of 2024
+<a href="https://lviviol.github.io/Regression_Modelling_Trial/CorrelationCheck.html" target="_blank">Regression Modelling Chart (Click this link to View Interactive Chart)</a>
 <img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/CorrelationCheck.png?raw=true" width="800">
 
  
@@ -107,7 +110,12 @@ This project is currently in early stage of development and analysis.  The predi
   
 * Data Source
   1. Open data portal, https://data.gov.sg
+
+* Meaningful Events
+  1. Singapore Opening Up after covid.  https://www.reuters.com/world/asia-pacific/singapore-pm-says-covid-19-new-normal-could-take-up-6-months-2021-10-09/
+
 </details>
+
 
 
 
