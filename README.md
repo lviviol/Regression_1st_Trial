@@ -69,7 +69,7 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 
 
 ### Observations D - Correlation Check
-1. Investigating into correlation between Model Predicted vs Mean & Median historical prices shows R-Square>90%.
+1. Investigating into correlation between Model Predicted vs historical Mean & Median prices shows R-Square>90%.
 2. Predicted prices are also closely following historical Mean prices.
 3. Above 2 points suggest this Random Forest Regression analysis is somewhat behaving properly since the model takes average of predictions as output in it's calculation.
 4. However, forward Predicted Prices, i.e. 2025-03 onwards, repeats the pattern of 2024, which is not as expected.  We expect a flat or rising trend and plan to investigate further.
@@ -85,7 +85,7 @@ Regression Modelling Chart (Click this link to View Interactive Chart)</a>
 
 * We plan to check correlation between Boxplot Actual Median Price & Predicted Price.  Our Hypothesis is, if the correlation is positive, perhaps one idea is to select a regression model that models median instead of mean. (Done)
 * We plan to compare model output with full dataset and dataset without outliers.  Purpose is to investigate outlier effect on OOB and R Square.  We also note that the disadvantage of removing outlier is it's impact on summary and distribution of the aggregate data, resulting in a biased output.
-* We plan to research on other regression models that are more robust at modelling dataset with higher outliers
+* We plan to research on other regression models that are more robust at modelling dataset with higher outliers.  (Huber?  Others?)
 * We plan to include more variables into the modelling.
 * We continue to use OOB > 80% and R-Square > 0.8 as guiding criteria for verifying the model's predicted prices.
 </details>
