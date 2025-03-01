@@ -67,6 +67,12 @@ Python, Pandas, Matplotlib, Plotly, Scikit-Learn
 3. However, we also observed that mean value of the Predicted Prices is somewhat close to Actual Median Prices by the BoxPlot.
 <img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/BoxPlot.png?raw=true" width="800">
 
+
+### Observations D - Correlation Check
+1. Correlation between Model Predicted vs Mean & Median prices shows R-Square>90%.
+2. Predicted prices closely follows Mean Prices is within expection since Random Forest Regression takes average of predictions as output.
+<img src="https://github.com/lviviol/Regression_Modelling_Trial/blob/main/CorrelationCheck.png?raw=true" width="800">
+
  
 ### Future Improvements
 <details> 
@@ -92,7 +98,8 @@ This project is currently in early stage of development and analysis.  The predi
 
 * Model Selection
   1. IBM, https://www.ibm.com/think/topics/random-forest
-  2. ZiZheng Li, https://www.researchgate.net/publication/383112591_A_Comparative_Study_of_Regression_Models_for_Housing_Price_Prediction
+  2. Berleley, https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf
+  3. ZiZheng Li, https://www.researchgate.net/publication/383112591_A_Comparative_Study_of_Regression_Models_for_Housing_Price_Prediction
 
 * Learning Tutorial
   1. Rob Mulla, https://www.youtube.com/watch?v=vV12dGe_Fho
